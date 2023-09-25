@@ -3,7 +3,24 @@ window.onload = function() {
 
   // the following lines will be replaced by docker/configurator, when it runs in a docker-container
   window.ui = SwaggerUIBundle({
-    url: "swagger.yaml",
+    urls: [
+      {
+        name: "ONBOARDING-SERVICE",
+        url: "onboarding.yaml",
+      },
+      {
+        name: "SEARCH-SERVICE",
+        url: "search.json",
+      },
+      {
+        name: "BOOKING-SERVICEr",
+        url: "book.json",
+      },
+      {
+        name: "OFFER-SERVICEr",
+        url: "offer.json",
+      },
+    ],
     dom_id: '#swagger-ui',
     deepLinking: true,
     presets: [
