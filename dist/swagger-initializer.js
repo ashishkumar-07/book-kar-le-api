@@ -13,11 +13,11 @@ window.onload = function() {
         url: "search.json",
       },
       {
-        name: "BOOKING-SERVICEr",
-        url: "book.json",
+        name: "BOOKING-SERVICE",
+        url: "booking.json",
       },
       {
-        name: "OFFER-SERVICEr",
+        name: "OFFER-SERVICE",
         url: "offer.json",
       },
     ],
