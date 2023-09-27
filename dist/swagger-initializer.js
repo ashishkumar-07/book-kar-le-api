@@ -6,7 +6,7 @@ window.onload = function() {
     urls: [
       {
         name: "ONBOARDING-SERVICE",
-        url: "onboarding.yaml",
+        url: "onboarding.json",
       },
       {
         name: "SEARCH-SERVICE",
